@@ -1,0 +1,5 @@
+streamlit>=1.28.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+wandb>=0.15.0
+z3-solver>=4.12.0
