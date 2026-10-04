@@ -1,6 +1,7 @@
 ## Autonomous Task Scheduler
-An intelligent task scheduling assistant designed to reduce decision fatigue and make workloads more manageable for individuals with ADHD.
+An intelligent task scheduling assistant designed to reduce decision fatigue and make workloads more manageable.
 Built with Python, Streamlit, ReAct Agent Architecture, Z3 SMT Solver, and SQLite.
+
 Key Features
 Natural Language Task Input — Extracts task details such as duration, deadline, importance, and cognitive load.
 Smart Scheduling — Creates schedules while considering deadlines, available time, and task constraints.
