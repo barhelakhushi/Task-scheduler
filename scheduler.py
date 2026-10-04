@@ -171,7 +171,7 @@ def plan_day_robust(tasks: List[Task], current_energy:Optional[float] = None) ->
             candidates.append(t)
 
     while candidates:
-        ordered, feasible = plan_day(candidates)
+        ordered, feasible = plan_day(candidates, current_energy=current_energy)
         if feasible:
             return ordered, dropped
         # lowest priority first; among ties, drop the longer task
